@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<head>
+    <title>experiment</title>
+    <link rel="stylesheet" href="https://pyscript.net/latest/pyscript.css" />
+    <script defer src="https://pyscript.net/latest/pyscript.js"></script>
+
+    <py-config>
+        packages = [
+          "numpy",
+          "pandas",
+          "scikit-learn"
+        ]
+
+        [[fetch]]
+        files = [
+         "/wusool_trip-2022.csv",
+         "/wusool_trip-2021.csv",
+         "/wusool_trip-2020.csv",
+         "/wusool_trip-2019.csv",
+         "/predictData.csv"]
+        </py-config>
+</head>
+
+<body>
+    <div id="trial"></div>
+<py-script src="./hi-trunc.py"></py-script>
+</body>
+</html>
