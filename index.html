@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <head>
-    <title>experiment</title>
+    <title>Wusool Price Predictor</title>
     <link rel="stylesheet" href="https://pyscript.net/latest/pyscript.css" />
     <script defer src="https://pyscript.net/latest/pyscript.js"></script>
 
@@ -22,7 +22,64 @@
 </head>
 
 <body>
+  <table>
+    <tr>
+    <th style="padding: 10px;">Pickup Longtitude</th>
+    <th style="padding: 10px;">Pickup Latitude</th>
+    <th style="padding: 10px;">Drop-off Longtitude</th>
+    <th style="padding: 10px;">Drop-off Latitude</th>
+    <th style="padding: 10px;">Machine Learning Prediction</th>
+    <th style="padding: 10px;">ChatGPT Prediction</th>
+    <th style="padding: 10px;">Actual Value</th>
+  </tr>
+
+  <tr>
+    <td id="plo0" style="padding: 10px;"></td>
+    <td id="pla0" style="padding: 10px;"></td>
+    <td id="dlo0" style="padding: 10px;"></td>
+    <td id="dla0" style="padding: 10px;"></td>
+    <td id="ml0" style="padding: 10px;"></td>
+    <td id="gai0" style="padding: 10px;"></td>
+    <td id="a0" style="padding: 10px;"></td>
+  </tr>
+  <tr>
+    <td id="plo1" style="padding: 10px;"></td>
+    <td id="pla1" style="padding: 10px;"></td>
+    <td id="dlo1" style="padding: 10px;"></td>
+    <td id="dla1" style="padding: 10px;"></td>
+    <td id="ml1" style="padding: 10px;"></td>
+    <td id="gai1" style="padding: 10px;"></td>
+    <td id="a1" style="padding: 10px;"></td>
+  </tr>
+  <tr>
+    <td id="plo2" style="padding: 10px;"></td>
+    <td id="pla2" style="padding: 10px;"></td>
+    <td id="dlo2" style="padding: 10px;"></td>
+    <td id="dla2" style="padding: 10px;"></td>
+    <td id="ml2" style="padding: 10px;"></td>
+    <td id="gai2" style="padding: 10px;"></td>
+    <td id="a2" style="padding: 10px;"></td>
+  </tr>
+  <tr>
+    <td id="plo3" style="padding: 10px;"></td>
+    <td id="pla3" style="padding: 10px;"></td>
+    <td id="dlo3" style="padding: 10px;"></td>
+    <td id="dla3" style="padding: 10px;"></td>
+    <td id="ml3" style="padding: 10px;"></td>
+    <td id="gai3" style="padding: 10px;"></td>
+    <td id="a3" style="padding: 10px;"></td>
+  </tr>
+  <tr>
+    <td id="plo4" style="padding: 10px;"></td>
+    <td id="pla4" style="padding: 10px;"></td>
+    <td id="dlo4" style="padding: 10px;"></td>
+    <td id="dla4" style="padding: 10px;"></td>
+    <td id="ml4" style="padding: 10px;"></td>
+    <td id="gai4" style="padding: 10px;"></td>
+    <td id="a4" style="padding: 10px;"></td>
+  </tr>
+  </table>
     <div id="trial"></div>
-<py-script src="./hi-trunc.py"></py-script>
+    <py-script src="./hi-trunc.py"></py-script>
 </body>
 </html>
